@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 43
+names: ['archer', 'bandit', 'barbarian', 'bomber', 'collector', 'dart', 'executioner', 'ghost', 'giant', 'goblin', 'golden', 'hand-archer', 'hand-bandit', 'hand-barbarian', 'hand-bomber', 'hand-dart', 'hand-executioner', 'hand-ghost', 'hand-giant', 'hand-goblin', 'hand-golden', 'hand-king', 'hand-knight', 'hand-machine', 'hand-mega', 'hand-pekka', 'hand-prince', 'hand-princess', 'hand-queen', 'hand-spear', 'hand-valkyrie', 'king', 'knight', 'machine', 'mega', 'orb', 'pekka', 'prince', 'princess', 'queen', 'spear', 'upgrade', 'valkyrie']
+
+roboflow:
+  workspace: cr-bot-l39ds
+  project: merge-isl3o
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cr-bot-l39ds/merge-isl3o/dataset/11
